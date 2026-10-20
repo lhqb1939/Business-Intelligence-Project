@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+inputs/*.csv
+prepared_v2/
+outputs_calendar_v2/
+page1_calendar_v2/
+*.bak
+*.7z
