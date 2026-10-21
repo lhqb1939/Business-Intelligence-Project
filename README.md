@@ -47,3 +47,6 @@ Use a new `--run-id` and output path for another batch. The script creates the s
 Forecast weeks must follow the model's last training week. Product/category values and discount rates are checked against training data; a new product or customer segment requires a new data preparation and model evaluation.
 
 `prepared_v2/`, `outputs_calendar_v2/`, and `page1_calendar_v2/` are generated locally and excluded from this repository. See the scripts for the complete validation rules.
+Update: Auto link train result to BI.
+.\.venv\Scripts\python.exe Publish_BI_v2.py --prepared prepared_v2 --results outputs_calendar_v2 --page1 page1_calendar_v2 --sql-server "lpc:localhost\MSSQLSERVER01"
+
